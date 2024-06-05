@@ -1,0 +1,861 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #302C42;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: -1620px;
+}
+
+.imagenes{
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.frame-1{
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.imagenes img{
+    background-color: transparent;
+}
+
+.listas{
+    margin-top: -10px;
+    background-color: transparent;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    font-size: 15px;
+    margin-left: 800px;
+}
+
+.botones{
+    background-color: transparent;
+    margin-top: -30px;
+    display: flex;
+    margin-left: 1400px;
+}
+
+.cont{
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.join{
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(90deg,rgb(111, 101, 151)3% rgba(192,183,232,1)94%);
+    border: 1px solid#302C42;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listas li{
+    background-color: transparent;
+}
+
+.titulo{
+    display:flex;
+    background-color: transparent;
+    gap: 500px;
+}
+
+.letras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 180px;
+    margin-left: 200px;
+    gap: 40px;
+}
+
+.letras p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parrafo-2{
+    font-size: 45px;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.Mask img{
+    background-color: transparent;
+    margin-top: 140px;
+}
+
+.rect{
+    position: absolute;
+    background-color: transparent;
+    margin-left: 1196px;
+    margin-top: 125px;
+}
+
+.rect img{
+    background-color: transparent;
+}
+
+.Mask{
+    background-color: transparent;
+}
+
+.sub{
+    margin-right: 280px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.sub button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(90 deg, rgba(129,118,175,1)3%, rgba (192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #8981ad solid;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.sub img{
+    background-color: transparent;
+    position: absolute;
+    margin-top: -25px;
+}
+
+.barrita{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    display: flex;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 350px;
+    background-color: transparent;
+}
+
+.location img{
+    background-color: transparent;
+}
+
+.location h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: white;
+}
+
+.barra p{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -150px;
+    margin-left: 790px;
+}
+
+.rayita{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -150px;
+    margin-left: 790px;
+}
+
+.phone{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -122px;
+    margin-left: 830px;
+}
+
+.telefono h3{
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -122px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 920px;
+}
+
+.telefono p{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -90px;
+    margin-left: 920px;
+}
+
+.rayi{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -150px;
+    margin-left: 1150px;
+}
+
+.mail{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: -122px;
+    margin-left: 1200px;
+}
+
+.mail h3{
+    background-color: transparent;
+    color: white;
+    margin-top: -65px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+}
+
+.mail p{
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    margin-top: 3px;
+    margin-left: 80px;
+}
+
+.medio{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    gap: 300px;
+}
+
+.titulos{
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulos h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.titulos h3{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.hydra{
+    display: flex;
+}
+
+.hydra img{
+    background-color: transparent;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.medio p{
+    color: white;
+    font-size: 16px;
+}
+
+.mitad{
+    margin-top: 90px;
+    margin-left: 200px;
+    gap: 300px;
+    display: flex;
+}
+
+.yisus h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.yisus h3{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.yisus p{
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+.yisus button{
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 220px;
+    height: 50px;
+    background:linear-gradient(90 deg, rgba(129,118,175,1)3%, rgba(192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #302C42;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.recop{
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recop h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.recop h3{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.whi{
+    display: flex;
+}
+
+.whi img{
+    background-color: transparent;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.abajo{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 215px;
+    gap: 300px;
+}
+
+.abajo p{
+    color: white;
+    font-size: 16px;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 130px;
+    background-color: transparent;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -470px;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.rostro-1{
+    background-color: transparent;
+    width: 230px;
+    margin-left: 15px;
+    margin-top: -15px;
+    z-index: 999;
+}
+
+.item h3{
+    margin-top: 20px;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.lin{
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.item p{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.item button{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(90 deg, rgba(129,118,175,1)3% rgba(192,183,232,1)94%);
+    border: 1px solid #302C42 solid;
+    color: #302C42 solid;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.eclipse{
+    position: absolute;
+    margin-top: -230px;
+    width: 260px;
+    height: 250px;
+    background-color: transparent;
+}
+
+.item-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -470px;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.rostro-2{
+    background-color: transparent;
+    width: 230px;
+    margin-left: 15px;
+    margin-top: -15px;
+    z-index: 999;
+}
+
+.item-2 h3{
+    margin-top: 20px;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.lin-2{
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.item-2 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.item-2 button{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(90 deg, rgba(129,118,175,1)3%, rgba(192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #302C42;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.eclipse-2{
+    position: absolute;
+    margin-top: -230px;
+    width: 260px;
+    height: 250px;
+    background-color: transparent;
+}
+
+.item-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -470px;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.rostro-3{
+    background-color: transparent;
+    width: 230px;
+    margin-left: 15px;
+    margin-top: -15px;
+    z-index: 999;
+}
+
+.item-3 h3{
+    margin-top: 20px;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.lin-3{
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.item-3 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.item-3 button{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(129,118,175,1)3%, rgba(192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #302C42 solid;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.eclipse-3{
+    position: absolute;
+    margin-top: -230px;
+    width: 260px;
+    height: 250px;
+    background-color: transparent;
+}
+
+.item-4{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -470px;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.rostro-4{
+    background-color: transparent;
+    width: 230px;
+    margin-left: 15px;
+    margin-top: -15px;
+    z-index: 999;
+}
+
+.item-4 h3{
+    margin-top: 20px;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.lin-4{
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.item-4 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.item-4 button{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(129,118,175,1)3% rgba(192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #302C42;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.eclipse-4{
+    position: absolute;
+    margin-top: -230px;
+    width: 260px;
+    height: 250px;
+    background-color: transparent;
+}
+
+.iconos{
+    margin-right: 150px;
+    margin-top: 100px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.proces{
+    margin-right: 150px;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cuestionario{
+    background-color: transparent;
+    margin-right: 150px;
+    margin-top: 100px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.main{
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hy{
+    background-color: transparent;
+    color: white;
+    margin-left: 150px;
+    margin-top: -410px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.bui{
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.text{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    gap: 10px;
+    margin-top: -250px;
+}
+
+.conti{
+    width: 500px;
+    height: 55px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-family: monospace;
+}
+
+.text-1{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+.conti-1{
+    width: 500px;
+    height: 55px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.text-2{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    gap: 10px;
+    margin-top: 230px;
+}
+
+.conti-2{
+    width: 1040px;
+    height: 55px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.text-3{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    gap: 10px;
+    margin-top: 610px;
+}
+
+.conti-3{
+    width: 1040px;
+    height: 205px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.text-4{
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    gap: 10px;
+    margin-top: 610px;
+}
+
+.sind{
+    margin-left: 40px;
+    margin-top: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(129,118,175,1)3%, rgba(192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #302C42 solid;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.piso{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.signo img{
+    width: 180px;
+}
+
+.listicas ul{
+    color: white;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listicas ul li{
+    color: white;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.liston ul{
+    color: white;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.liston ul li{
+    color: white;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.peda{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.peda h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iconitos{
+    display: flex;
+    gap: 20px;
+}
+
+.final button{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(129,118,175,1)3% rgba(192,183,232,1)94%);
+    border: 1px solid #302C42;
+    color: #302C42 solid;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.ll{
+    width: 1500px;
+    height: 20px;
+    margin-top: 90px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ll h3{
+    margin-top: 90px;
+    color: white;
+    margin-left: 300px;
+}
